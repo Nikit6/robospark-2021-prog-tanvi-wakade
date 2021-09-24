@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+
+#include
 int f = -1,r = -1;
 int q[50];
 void enqueue(int data,int l)//Enqueue for inserting data
@@ -13,7 +15,7 @@ void enqueue(int data,int l)//Enqueue for inserting data
 	else
 	{
 		r++;
-		q[r] = data;
+		q[r] = data;	
 	}
 }
 void print()//Print function for printing the data
@@ -49,5 +51,5 @@ void main()
 	reverse();
 	printf("\nQueue after reversing:-");
 	print();
-
+	
 }
